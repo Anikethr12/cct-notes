@@ -1,0 +1,8 @@
+#########################################module18(networking logs and monitoring anyalyisis)############################################
+`````````````````````````````````````````````````1(config,viw,anylys window event logs)``````````````````````````````````````````````
+login on webserver>windows search>local security policiy>audit policyleft >right audit loggon events> tick success failture ok>close it>right click on start button  evnt viewer>expand swindow logs >security>click on right any data for more info
+`````````````````````````````````````````````````2( VIEW AND ANALYZE WINDOWS LOG)```````````````````````````````````````````````````````
+admin 1> C:\Windows\System32\winevt\Logs>double click on an log>to check further details
+`````````````````````````````````````````````````3(view and anylys linux logsp)````````````````````````````````````````````````````````````````````````
+attacker1>sudo su> cd /var/log>ls to view logs>Type cat auth.log(file contains both succes and not success events)>, type cat boot.log and press Enter to view boot related logs>booting messages are sent by system initialization script, /etc/init.d/
+bootmisc.sh>Type cat syslog and press Enter to view the file containing general messages and system-related information>simlarly w enter for check system logins times up>last -a for last logins>sudo aureport for check alll login attempts>
