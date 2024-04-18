@@ -1,0 +1,15 @@
+#####################################module17#####################################
+````````````````````````````````````````````1````````````````````````````````
+use wire shark capture the packets and all>now use tcp dump to intercept http request>webserver>startbutton>server manger>tools>internet information service(iis)>webseerver/administrator>moviescope>authentication>authomous disable>basic able>
+using basic is not safe as it is uses plain text is just for demo purpose(advised to use windows authenticaton)>attaker 2>sudo su>cd(for root)>tcpdump -vv dst 10.10.1.16(target) and port www -w test.pcap>open webbrowser movie.com>ctrl+c>
+ls>wireshark testpcap>click http req(get)>expand authrixzation node>creditials seen>simmlarly now ssh>cpdump -vv dst 10.10.1.79 and port ssh -w test2.pca>>open another terminal>sudo su>cd> ssh sam@10.10.1(to establish connection)with admin2>
+tpe password >close it>now to previous terminal >ctrl+c>simlarly wireshark>sshv2 protocol packet>exchage >can see encyped password>
+`````````````````````````````````````````````2(famliour with wireshark filters)````````````````````````````````````
+read the filters of wire shark
+```````````````````````````````````````````3(ANALYZE AND EXAMINE VARIOUS NETWORK PACKET HEADERS IN LINUX USING tcpdump)```````````````````````````````````````````````````````
+learn tcp dump from yt
+admin2>sudo tcpdump>tcpdump -i eth0(to capture machine specific interface)>,,tcpdump -i eth0 tcp(machine specific tcp)>(new terminal)dd if=/dev/urandom bs=1M count=1 | nc 10.10.1.50 9000(t generates the TCP packets of 1MB and sends them to 
+destination 10.10.1.50.) >swich to term.1(can see captured images new)ctrl+c> tcpdump -i eth0 port 80(port specific)>open cronium and open a wesite>again tcpdump check pacages>(term2)tcpdump -i eth0 src 10.10.1.1(source specific)>ping from another 
+terminal 10.10.1.50>oberve new icpm packets came>
+``````````````````````````````````````````4(SCAN NETWORK TO IDENTIFY HOSTS IN THE LOCAL NETWORK)``````````````````````````````````````````````````
+attacker machine2>type ip a(network info)>ip route show(to check ip default gateway)> netdiscover -i eth0 -r 10.10.1.0/(to scan local network)>ad controller>cmd>ifconfig> pathping 10.10.1(check connection between am2 and ad)>learn nmap
