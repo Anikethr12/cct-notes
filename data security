@@ -1,0 +1,36 @@
+######################datasecuirty#################################
+  ``````````````````````````(Perform Disk Encryption using BitLocker Drive Encryption)``````````````````````````
+admin1>search bit locker>tun on bitlocker encryption on any volume>give passwod>save the backup key>SLECT SLOW BUT the best
+  pc>restart machine>try to open that volume it assks for password
+  ````````````````````````````(.PERFORM DISK ENCRYPTION USING VERACRYPT)````````````````````````````````````````````````
+ admin1>veracrypt>crate volume>create a encrypted file container(radio button is on>selct file>go and encrypt any folder
+give the size>give password>filesytem=fat>check the check box randompool nall>move mouse randomly for 30 sec the click formaat
+>click on i volume>now selct file and go that place which gave first>give passwrod>that volume is success fully mounted with volume i
+>can copy and move files to i to encrpt them
+`````````````````````````````````( IMPLEMENT BUILT-IN FILE SYSTEM-LEVEL ENCRYPTION ON WINDOWS)``````````````````````````````````````
+admin 1>create a text file on desktop>cmd>ipher /e C:\Users\Admin\Desktop\Test.txt>/w:C:\Users\Admin\Desktop\Test.txt>
+close>cmd>create a newtext file somewhgerelse>riht click properties>advanced encrypt
+``````````````````````````(PERFORM DATA BACKUP USING GENIE BACKUP MANAGER)```````````````````````````
+admin1> Z:\CCT-Tools\CCT Module 15 Data Security\Genie Backup>geneic backup mangaer>install>evalute>backup>crete new backup job>
+select different backup options> local/lan>zip password protection>backup now>check dat integrity>datta verfication.quit>
+documents/backup job>now how to recover anything >click backup job>psswd>backupjob>z(in left)>next backup now
+
+
+```````````````````````````````````````````````(FILE RECOVERY USING EASEUS DATA RECOVERY WIZARD)~~~~~~~~~~~~~~~~~~```
+admin1>check for any forder deltion>if not create and delte> Z:\CCT-Tools\CCT Module 15 Data Security\EaseUS.>open app>
+it will open a browser close that>>select volume>selct the delted files>selct loction n recover>complete recovery and navigate to that folder
+
+```````````````````````````````````````````(BACK UP AND RESTORE DATA IN WINDOWS)``````````````````````````````````````
+
+    ad controller>c:/create a folder(data backup)>properties>sharing>advanced .check box>permission>fuul control>check box>apply ok(2x)>
+  switch to web server machine>start>server manger>tools>window server backup>local backup(left)>backup once(right)>selecct backup config wizard
+  > custom>items for backup>add items>expand c>internal files>destination type>remote shrared>remote folder> \\DOMAINCONTROLL\Data Backup>confirmation>bakup>
+  keep it running until delte the inter files>wbadmin windoew >click on recover (right)>remote foder> \\DOMAINCONTROLL\Data Backup>item to recovetr(chosse any)>
+   recovery options >create a folder(data recovered)>chose n ok>data wil be recovered
+
+
+  `````````````````````````````````````````````( PERFORM DATA DESTRUCTION USING WINDOWS DISKPARTUTILITY)```````````````````````
+
+  admin1>cmd>diskpart>type list disk>Type select disk 1>clean>create partitin >primary> select partition 1>active> type format FS=NTFS label=Data Quick
+   ( to format the partition and set a drive label)> assign letter=W(to asign the ltter)>exit.
+                                                          
