@@ -1,0 +1,27 @@
+#########################################network-trouble-shotting#################33333
+```````````````````````````````````````````1(NETWORK TROUBLESHOOTING USING COMMAND LINE UTILITIES
+AND TOOLS)`````````````````````````````````
+
+
+admin1>cmd>nslookup(this will show default serverassigned to machine)>set type=a(quesry for the ip address of a given domain)
+>type www.certfiedhacker.com(it gives ip)>non-authoritive in result means answered by a local server>set type=cname(this returns authorative)
+>type primary name server(to get ip)>by geting these info many attacks can be performed>exit>type tracert www.domain.com(packet snet before)
+reaching)>tracert /?(too different option like -h)exit>arp-a(to show current ARP cache table in windows)(arp is used in trouble shooting
+routers and others)> pathping -n www.certifiedhacker.com (to view hop packets before reaching desitnation in thr form of ip)
+>ctclr+c>type netstat -e(it used for both coming and sendinding view tcp/ip packets>attaker 2>traceroute www.domain.com(to
+see packets before reaching destination)>type dig ns ww.d.com(returns name servers)(retrives all the domain info regarding dns)
+>type dig @[[NameServer]] [[Target Domain]] axfr(retrives zone info)>
+
+```````````````````2(nmap)```````````````````````
+learn zenmap
+
+```````````````````3(NETWORK TROUBLESHOOTING USING HPING )``````````````
+
+sudo su>cd>hping3 -A (ip) -p 80 -c 5(specificpacket count)>hping3 -1 (icmp reqmode)-8(mode) 0-100(range of ports) -S [Target IP Address] -V (verbose)>
+``````````````````````````````````````````4(ACCESS REMOTE MACHINE USING PuTTY)````````````````````````````````````````````````
+we wiil access attacter 2 using admin 1
+attacker 2>terminal>sudo su>cd>service ssh start>servie ssh stauus(to check)>swich to admin 1>statrt puuty>port 22 >
+in login field enter password>
+
+
+
