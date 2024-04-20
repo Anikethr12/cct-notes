@@ -1,0 +1,26 @@
+#################################crptography############################################
+`````````````````````````````14(Calculate One-way Hashes using HashCalc)````````````````````````````````````
+go and install it selct a text file its hashes will be calculted uisng hash cal
+
+``````````````````````````````````(CALCULATE MD5 HASHES USING MD5 CALCULATOR)`````````````````````````````
+Z:\CCT-Tools\CCT Module 14 Cryptography\MD5 and MD6 Hash Calculators\MD5 Calculator and double-click md5calc(1.0.0.0).msi.>simply it will cal culte
+````````````````````````````````````( CALCULATE MD5 HASHES USING HASHMYFILES)`````````````````````
+Z:\CCT-Tools\CCT Module 14 Cryptography\MD5 and MD6 Hash Calculators>can hose which type of hash from options and can add files from files option>then calculate
+  `````````````````````````````````````(ENCRYPT AND DECRYPT DATA USING BCTEXTENCODER)```````````````````````````````````````````````
+  bctextencoder.exe>similary deal with some password shit>
+  ``````````````````````````````````````( CREATE AND USE SELF-SIGNED CERTIFICATES)````````````````````````
+  webserver>check wheteher you local sites include a self-signed certificate>open any browser >and type the www.given domain.com
+  >as we used https and site cant be reached meagge got so it is not using seff isgned service>open windows adminstrative ruless>
+  interent sevices>.amnager>machine webserver>server certificates>crreate self signed(right)>chose the name and personel>
+  from left expand sites>lucsury treats>binding(right)>add>config now port 443 and ssl and other hings>close>right click the name of
+  website and refresh >now try on crome 
+
+  ``````````````````````````````````````````````(CREATE AND MANAGE CERTIFICATES USING OPENSSL)`````````````````````````````````````````````
+
+  turn attacker2(linux)>sudo su>cd>mkdir genraded keys>cd genrated keys>openssl genrsa(rsa algo) -out(llcation) output cct.com.key.pem 3072(specific key size )>
+  cat cct.com.key.pem()now we have a private key>openssl rsa -in(specfic private key) cct.com.key.pem -pubout(speecifies experting public key) -out cct.com.public-key.pem
+  >here we do npot have ca(cerficate authority)so we skip sending csr to ca insead we will self sighn the ertificate>openssl req -new -x509 -key cct.com.key.pem -out cct.com.cert.pem -days 360>
+ enter the info>now w weil convert the cert into the key files ehich is acceptable ot windows>pem to pkcs  >openssl pkcs12 -export -inkey cct.com.key.pem -in cct.com.cert.pem -out cct.com.cert.pfx
+    ```````````````````````````````````````(IMAGE STEGANOGRAPHY USING OPENSTEGO)``````````````````````````````````````````````````
+    webserver>Z:\CCT Module 14 Cryptography\Image Steganography Tools\OpenStego>meassage file>open a new document from that smae location of app>
+    cover file>.jpj file>output on desktop>hide data>also can extract(simlarly)
