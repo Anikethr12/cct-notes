@@ -1,3 +1,6 @@
+#################################################mobileecurity()12#################################################################
+
+
 admin1>crome>www.miradore.com/get started>use email for registration>cpmany(left)>users>add>details>select new created user>enrolment>create enrollment credentialas>add any tag name>>copy and save the crediantials for later 
 usee>swithc to android>download miradore online client>type creditials>admin device adminj app>sync now>admin 1>crome>dashborad>a security professinal can mange these accounts now>click on device>now if mobile is lost 
 defferent action can be took>
