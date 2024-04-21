@@ -1,0 +1,8 @@
+#####################################################11(wirelesssecurity)#############################################
+`````````````````````````````````````````````````````(configure security on a wireless router)````````````````````````````````````````
+
+
+ad domain>browse the linksys router(http://ui.linksys.com/WRT54G/v8/8.00.0/)>basic details>DHCP server enable>fill all the data>mac address clone>disable>advance routing>operating mode to gateway>static routing(any number)
+>fill details>interface(lan & wireless)>save settings>wireless>basic wireless settings>ssid disable>wireless security>WPA2>if not able to add security then ctcl h to clear browsing data>selct aes for wpa lgo>3600 sec
+wireless msc filter>enable>security( to add fire wall)>first and last option>acess restriction>config>application and gaming>config>DMZ>disable>qos>disable>save settings>adminstration>mangement>password>disable>http>
+log>enable>status to check
