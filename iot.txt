@@ -1,0 +1,7 @@
+admin1,werserver>Bevywise_MQTTRoute_Win_64.exe>install and lauch>cmd comes>switch to admin1(to run iot)>Bevywise_  IoTSimulator_Win_64.exe>install>to urn iot simulator>c:/bevywise\iotsimulator\bin>runsimulator.bat>
+open it in browser>3 dots>new network>name any>default(now to it connect to webserver app that we insttaled>now add device>blank device>start netwrok>when connection is estsablish red becomes green>websrever>cmd
+req. came>admin 1>click on plus icon>subscribe to command>high temp(topic)>scrool you will see it is genrated>open wireshark now see tracking between both machine>wireshark>http://localhost:8080(crome)>siginin>
+now connected>navigate to cmannd section>mesagge>admin 1>message came in iot simulator>we verify check in wire shrka type (tcp.port==1883)>publish message>right click>follow tcp stream>can view the message>
+now we will set tlc/ssl on virtual network>web server>close crome>night click and edit on notepad>line25>change tls to true>run broker.bat>to copy the cert from server to clien t go to>C:\Bevywise\
+MQTTRoute\Certificate>copy client and root and paste to z;\ccwt module 13....> switch to admin 1>C:\Bevywise\IotSimulator\Certificat>dlt the exitig cert.>client and root>ctlc c(2x)>close bowser>open iot simulator>
+existing network>enabled>8863>webserver>localhost(crome)now send a mesage and so on>now check on admin1.messgae the check in wireshark dat will be encrpted
