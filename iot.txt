@@ -1,3 +1,8 @@
+#########################################iot###########################################
+
+
+
+
 admin1,werserver>Bevywise_MQTTRoute_Win_64.exe>install and lauch>cmd comes>switch to admin1(to run iot)>Bevywise_  IoTSimulator_Win_64.exe>install>to urn iot simulator>c:/bevywise\iotsimulator\bin>runsimulator.bat>
 open it in browser>3 dots>new network>name any>default(now to it connect to webserver app that we insttaled>now add device>blank device>start netwrok>when connection is estsablish red becomes green>websrever>cmd
 req. came>admin 1>click on plus icon>subscribe to command>high temp(topic)>scrool you will see it is genrated>open wireshark now see tracking between both machine>wireshark>http://localhost:8080(crome)>siginin>
