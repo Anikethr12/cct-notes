@@ -1,0 +1,14 @@
+############################################################network secuirty assesment techniques and tools##########################################
+```````````````````````````````````````````````````````collect data through search engines````````````````````````````````````
+
+admin1>https://www.exploit-db.com/ggogle hacking data bases>check for latest entries>check for more things there>check for foothold files(can test by create the files of foot hold then palce the of web site)>check for vulnerable
+servers>simalrly we can check many things>now ew osint using threatcrowd>enter the url we wnat to analyse>osint using deep and dark web>moduke8/tor>install>open crone>hacker for hire>now switch to tor and search same>
+`````````````````````````````````````````````````````````````````gather threat intelligence feed using threatfeeds.io``````````````````````````````````````````
+admin1>firefox>threatfeeds.io>alienvault ip reputation>download>save>open file with notepad>list of malicious ip addresses>download AlphaSOc Ryuk c2> download >simlary>
+
+``````````````````````````````````````````````````````````````perform vulnearbility research in common weakness enumeration(cwe)````````````````````````````````
+admin1>cwe.mitre.org>type smb in search box>simlary check other things by opening file>
+
+```````````````````````````````````````````````````````````perform vulbnearbility assessment to identify seccuirty vulnerabilities in the target system or network```````````````````````````````````````````````````````
+
+attacker2>appliacation>pentesting>openvas>after tool openfirefox>127.0.0.1:9392>login to openvas>scans>tasks>hover over hand icon>task wizard>enter ip of target>once it completed>done>
