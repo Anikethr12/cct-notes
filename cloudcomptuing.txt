@@ -1,0 +1,30 @@
+################################################3cloud computing#########################################
+```````````````````````````````````````````audit docker host security using docker bench security tool```````````````````
+
+admin2>update>uninstall docker(sudo-get remove docker-engine docker.io)>instal docker >sudo docker images>type> https://github.com/docker/docker-bench-security.git>cd docker -bench secuirty>to run script>sh docker-brnch-
+security.sh>warning can be corrected by changing in docker daemon>
+
+`````````````````````````````````````````` create iam credentials on google cloud platform``````````````````````````````````````
+admin1>crome>cloud.google.com>sigin>get stared>iam and admin>create project>add>enter many 2-3 testuser1,2,3@gmail.com>editor role>save>to create service ccount>service ac name=rest service 1>role+storage objective viewer>
+done
+
+```````````````````````````````````implement aws identity and access management``````````````````````````
+admin1>crome>aws.amazon.com>account>aws mangemnt console>rootuser>iam under seccuirty>acces amngement >user groups>scrll>attach permisison policies>iam password>search database admistrator>create group>add users>lets
+attch policy>click on the user name>permissions>add permisisons>attach a fiel> permission>we will create a cusotm pplicy>acce mangemt >policies>create policie>cloudfront>give the permisions u want> scrool >all resources
+MFA required>tags>next>dashboard>copy the sigin link (right)>paste in ingontio>sigin>
+
+````````````````````````````````````````````implment key mangement service in keys`````````````````````````````````````````````
+we need to implemt exersice 3 before this>admin1>crome>aws.amzon.com>my account>aws management console>sigin>kms insearch box>click>left(coustomer managed keys)>create key>in alias(cct_user_masterkey)>we will permit alice to
+use the master key>next>costomer managed keys click on key to check properties>amazon mangemt console>s3>create bucket>name and all>disable>click on the bucket which u wnat to config>edit>enable>scroll>server access loggimg
+>browse s3>selct>save changes>edeit>enable>aws kms key managemnt service key>now encyption is done user csn pudh data in this>for customer manged keys>kms>customer mangaed keys>cct user masterkey>select amzon resourse name(arn)
+copy jurl and paste in notepadd>navigate to s3 mangemnt>slect testing grup>properties>scroll edit>pick pasted url>paste in kms keys >EC2>(left)elastic block storage>volume>create a new volume> fill and encrupt>(in this kms master is used to encypt the EBS volume>now we encypt using redshift>amzon redshift>create cluster>chosse according to u >production or free>(make sure u dlt this red shift cluster later)>create cluster>click on cluster>edit
+>scrool >opentab>edit >edit encryption>use aws key mangemnt>use key from current account>ct_masterkey>save>search km in main>click on customer manged keys>cct user masterkey>add>alice>add>you can now dlt them by click king on 
+on action >aldo dlt redshift>
+
+
+`````````````````````````````````````````````````````````````````````````````SECUERE AMZAON WEB SERVICE STORAGE````````````````````````````
+admin1>crome>aws.amzon.com>sigin>services(left)>s3 search>create bucket>fiil>detals>disable>create>selct that>permisions>block public acees>edit>uncheck all>save>scrool to acess control>edit>acl>savecahnges>if we need bucket 
+>left side me amzons3 right click krke open in new tab>chaeck the buckeet>copy arn>paste on notepad>first ab>scroll bucket policy>edit>policy genrator>s3 bucket policy>pricipal =*>aws service= amazon s3>copy notepad>fill it 
+in arn>all actions>add statement>gernate policies>copy json thing>switch to first tab>paste json>save changes now bucket have public accesss>
+.
+
